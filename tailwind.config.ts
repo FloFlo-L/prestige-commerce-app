@@ -9,6 +9,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        libreCaslon: ['"Libre Caslon Display"', 'serif'],
+        playfair: ['"Playfair Display"', 'serif'],
+        roboto: ['Roboto', 'sans-serif'],
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",

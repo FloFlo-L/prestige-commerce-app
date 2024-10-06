@@ -7,7 +7,23 @@ export default {
             name: "images",
             type: "array",
             title: "Images",
-            of: [{ type: "image" }]
+            of: [
+                { 
+                    type: "object" ,
+                    fields: [
+                        {
+                            name: "image",
+                            type: "image",
+                            title: "Image"
+                        },
+                        {
+                            name: "name",
+                            type: "string",
+                            title: "Name"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
